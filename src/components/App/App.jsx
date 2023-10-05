@@ -17,7 +17,7 @@ function App() {
         </section>
 
         <section>
-          <Catalog></Catalog>
+          <Catalog text='Наш автопарк'></Catalog>
         </section>
 
         <section>

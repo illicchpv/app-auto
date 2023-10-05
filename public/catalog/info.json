@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "name": "Lamborghini Huracan Spyder",
+    "gear": "полный",
+    "wheel": "5.2",
+    "belt": "2"
+  },
+  {
+    "id": "2",
+    "name": "Chevrolet Corvette",
+    "gear": "полный",
+    "wheel": "6.2",
+    "belt": "2"
+  },
+  {
+    "id": "3",
+    "name": "Ferrari California",
+    "gear": "полный",
+    "wheel": "3.9",
+    "belt": "4"
+  },
+  {
+    "id": "4",
+    "name": "Lamborghini Urus",
+    "gear": "полный",
+    "wheel": "4.0",
+    "belt": "5"
+  },
+  {
+    "id": "5",
+    "name": "Audi R8",
+    "gear": "полный",
+    "wheel": "5.2",
+    "belt": "2"
+  },
+  {
+    "id": "6",
+    "name": "Аренда Chevrolet Camaro",
+    "gear": "полный",
+    "wheel": "2.0",
+    "belt": "4"
+  }  
+]

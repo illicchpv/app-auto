@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+
 import './Catalog.scss';
 import gear from '../../assets/icons/gear.svg'
 import belt from '../../assets/icons/belt.svg'
@@ -7,8 +9,25 @@ import { Button } from '../Button'
 const Catalog = (props) => {
   const { text = '' } = props;
 
-  const itemsArr = require('./info.json');
-  console.log('itemsArr', itemsArr)
+  // const itemsArr = require('./info.json');
+  // console.log('itemsArr', itemsArr)
+
+  const [itemsArr, setItemsArr] = useState()
+  const fetchJson = () => {
+    fetch('./catalog/info.json')
+      .then(resp => {
+        return resp.json();
+      }).then(resp => {
+        setItemsArr(resp);
+      }).catch((e) => {
+        console.log(e.message);
+      });
+  }
+  useEffect(() => {
+    fetchJson()
+  }, [])
+
+
   const base = './catalog/'
 
   return (
@@ -16,10 +35,10 @@ const Catalog = (props) => {
       <div className={'catalog'}>
         <h2>{text}</h2>
         <div className="catalog__grid">
-          {itemsArr.map((item, key) => {
+          {itemsArr?.map((item) => {
             return (
               <div className="catalog__item">
-                <img src={base + (key + 1) + ".png"} alt={"qqq"} />
+                <img src={base + item.id + ".png"} alt={"qqq"} />
 
                 <p className="catalog__itemName">
                   {item.name}
