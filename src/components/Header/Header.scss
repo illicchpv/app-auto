@@ -1,0 +1,25 @@
+//Header
+.container_header{
+
+}
+.header{
+  margin-top: 25px;
+  position: absolute;
+  display: flex;
+  gap: 244px;
+
+  img{
+    width: 113px;
+  }
+
+  &__navList{
+    display: flex;
+    gap: 115px;
+
+    a{
+      font-size: 15px;
+      font-weight: 400;
+    }
+  }
+}
+
