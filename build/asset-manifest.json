@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ea6b3c09.css",
+    "main.js": "/static/js/main.b245312a.js",
+    "static/js/787.89def787.chunk.js": "/static/js/787.89def787.chunk.js",
+    "static/media/getPrice-bg.png": "/static/media/getPrice-bg.2c4cbc056eae4adbe31e.png",
+    "static/media/background.jpg": "/static/media/background.77cfc1e209fde10579e3.jpg",
+    "static/media/roboto-v30-cyrillic_latin-700.woff2": "/static/media/roboto-v30-cyrillic_latin-700.a3f18f14e8ed9cc1f976.woff2",
+    "static/media/roboto-v30-cyrillic_latin-regular.woff2": "/static/media/roboto-v30-cyrillic_latin-regular.4fffc5153fbed09f129b.woff2",
+    "static/media/gear.svg": "/static/media/gear.c0c320f6abc36d6cf22a7e85d87a0174.svg",
+    "static/media/belt.svg": "/static/media/belt.6d4e3b399679abe6a79917e1546ec2f9.svg",
+    "static/media/wheel.svg": "/static/media/wheel.3dc00540cd862474b7f9c55b517b3806.svg",
+    "index.html": "/index.html",
+    "main.ea6b3c09.css.map": "/static/css/main.ea6b3c09.css.map",
+    "main.b245312a.js.map": "/static/js/main.b245312a.js.map",
+    "787.89def787.chunk.js.map": "/static/js/787.89def787.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea6b3c09.css",
+    "static/js/main.b245312a.js"
+  ]
+}
