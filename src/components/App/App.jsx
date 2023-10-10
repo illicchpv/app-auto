@@ -16,11 +16,11 @@ function App() {
           <About></About>
         </section>
 
-        <section>
+        <section id='catalog'>
           <Catalog text='Наш автопарк'></Catalog>
         </section>
 
-        <section>
+        <section id='getprice'>
           <GetPrice></GetPrice>
         </section>
       </main>

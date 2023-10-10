@@ -13,9 +13,9 @@ const Header = (props) => {
 
         <nav>
           <ul className={'header__navList'}>
-            <li><a href="/">Главная</a></li>
-            <li><a href="/">Автомобили</a></li>
-            <li><a href="/">Бронирование&nbsp;авто</a></li>
+            <li><a href="./">Главная</a></li>
+            <li><a href="#catalog">Автомобили</a></li>
+            <li><a href="#getprice">Бронирование&nbsp;авто</a></li>
           </ul>
         </nav>
       </header>
