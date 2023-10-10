@@ -2,7 +2,7 @@ import './Footer.scss';
 import logo from '../../assets/icons/logo.png'
 
 const Footer = (props) => {
-  const { text = '' } = props;
+  // const { text = '' } = props;
 
   return (
     <div className={'container container_footer'}>

@@ -4,7 +4,7 @@ import { Input } from '../Input'
 import { Button } from '../Button'
 
 const GetPrice = (props) => {
-  const { text = '' } = props;
+  // const { text = '' } = props;
 
   return (
     <div className={'container container_getPrice'}>

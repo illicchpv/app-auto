@@ -3,7 +3,7 @@ import './Header.scss';
 import logo from '../../assets/icons/logo.png'
 
 const Header = (props) => {
-  const { text = '' } = props;
+  // const { text = '' } = props;
   // console.log('Header', styles)
 
   return (
@@ -13,9 +13,9 @@ const Header = (props) => {
 
         <nav>
           <ul className={'header__navList'}>
-            <li><a href="">Главная</a></li>
-            <li><a href="">Автомобили</a></li>
-            <li><a href="">Бронирование&nbsp;авто</a></li>
+            <li><a href="/">Главная</a></li>
+            <li><a href="/">Автомобили</a></li>
+            <li><a href="/">Бронирование&nbsp;авто</a></li>
           </ul>
         </nav>
       </header>

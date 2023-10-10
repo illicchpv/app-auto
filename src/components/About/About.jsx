@@ -2,7 +2,7 @@ import './About.scss';
 import bg from '../../assets/img/background.jpg'
 import { Button } from '../Button'
 const About = (props) => {
-  const { text = '' } = props;
+  // const { text = '' } = props;
   console.log('bg', bg)
 
   //style={{ backgroundImage: `url(${bg})` }}
@@ -10,7 +10,7 @@ const About = (props) => {
     <div className={'about'} style={{ backgroundImage: `url(${bg})` }}>
       <div className={'container container_about'}>
         <h1>
-          Аренда премиальных автомобилей
+          Аренда премиальных автомобилей.
         </h1>
         <p>
           В нашем клубе имеется солидная коллекция спортивных

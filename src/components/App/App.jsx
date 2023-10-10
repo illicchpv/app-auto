@@ -8,7 +8,7 @@ import { Footer } from "../Footer";
 
 function App() {
   return (
-    <div className={'root'}>
+    <>
       <Header />
 
       <main>
@@ -23,11 +23,10 @@ function App() {
         <section>
           <GetPrice></GetPrice>
         </section>
-
       </main>
 
       <Footer />
-    </div>
+    </>
   );
 }
 

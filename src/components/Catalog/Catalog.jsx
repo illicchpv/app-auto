@@ -46,17 +46,17 @@ const Catalog = (props) => {
 
                 <div className="catalog__itemSpecArr">
                   <div className="catalog__itemSpec catalog__itemSpecGear">
-                    <img src={gear} />
+                    <img src={gear} alt='катринка' />
                     <h5>Привод</h5>
                     <p>{item.gear}</p>
                   </div>
                   <div className="catalog__itemSpec catalog__itemSpecWheel">
-                    <img src={wheel} />
+                    <img src={wheel} alt='катринка' />
                     <h5>Двигатель</h5>
                     <p>{item.wheel} л.с.</p>
                   </div>
                   <div className="catalog__itemSpec catalog__itemSpecBelt">
-                    <img src={belt} />
+                    <img src={belt} alt='катринка' />
                     <h5>Кол-во мест</h5>
                     <p>{item.belt}</p>
                   </div>
